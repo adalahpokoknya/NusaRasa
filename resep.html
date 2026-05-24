@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep - NusaRasa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-nav shadow-lg fixed-top">
+        <div class="container-fluid mx-4">
+            <a class="navbar-brand" href="#">NusaRasa.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Beranda</a>
+                    <a class="nav-link active" aria-current="page" href="produk.html">Resep</a>
+                    <a class="nav-link" href="tentang.html">Tentang</a>
+                    <a class="nav-link" href="kontak.html">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="container-fluid produk-banner d-flex align-items-center justify-content-center">
+      <div class="container text-center">
+        <h1 class="text-light pt-5 fw-bold display-4 mb-3">
+            Menu Pilihan Nusantara
+        </h1>
+        <p class="text-light fs-5">Nikmati beragam sajian khas Indonesia dengan rasa autentik dan tampilan menggugah selera.</p>
+        
+      </div>
+    </div>
+
+    <!-- produk -->
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="mb-3">Menu Pilihan</h4>
+                <p class="text-muted mb-4">Pilih hidangan favorit Anda dari daftar menu makanan Nusantara terbaik kami.</p>
+                <div class="row">
+                    <!-- card 1 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card product-card position-relative">
+                            <a href="images/satee.jpg" data-lightbox="sate-taichan" data-title="Sate Taichan"
+                                class="text-decoration-none">
+                                <img src="images/satee.jpg" class="card-img-top portrait"
+                                    alt="Sate Taichan" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Satee
+                                </h5>
+                                
+                                    
+                                <a href="produk/data1.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- card 2 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card product-card position-relative">
+                            <a href="images/pecel.jpg" data-lightbox="pecel" data-title="Pecel"
+                                class="text-decoration-none">
+                                <img src="images/pecel.jpg" class="card-img-top portrait"
+                                    alt="Pecel" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Pecel
+                                </h5>
+                                <a href="produk/data2.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card product-card position-relative">
+                            <a href="images/nasi.jfif" data-lightbox="nasi kuning" data-title="Nasi Kuning"
+                                class="text-decoration-none">
+                                <img src="images/nasi.jfif" class="card-img-top portrait"
+                                    alt="Nasi Kuning" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Nasi Kuning
+                                </h5>
+                                
+                                   
+                                <a href="produk/data3.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 4 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card product-card position-relative">
+                            <a href="images/rendang.jpg" data-lightbox="rendang" data-title="Rendang"
+                                class="text-decoration-none">
+                                <img src="images/rendang.jpg" class="card-img-top portrait"
+                                    alt="Rendang" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Rendang
+                                </h5>
+                                
+                                   
+                                <a href="produk/data4.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 5 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card">
+                            <a href="https://i.pinimg.com/736x/fe/a0/a8/fea0a8a998a10a3a2e2cb40c00b2a9af.jpg" data-lightbox="rawon" data-title="Rawon"
+                                class="text-decoration-none">
+                                <img src="images/rawoon.jpg" class="card-img-top portrait"
+                                    alt="Rawon" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Rawon
+                                </h5>
+                                
+                                        
+                                <a href="produk/data5.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 6 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card">
+                            <a href="https://i.pinimg.com/736x/de/3a/ec/de3aec44f6563560aeb9286bb7cdd3c1.jpg" data-lightbox="sunlight" data-title="Sunlight"
+                                class="text-decoration-none">
+                                <img src="images/soto.webp" class="card-img-top portrait"
+                                    alt="Soto" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Soto
+                                </h5>
+                                
+                                   
+                         
+                                <a href="produk/data6.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 7 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card">
+                            <a href="https://i.pinimg.com/736x/3f/75/3e/3f753eb66b5889b237adfa8a0f79e818.jpg" data-lightbox="lpg" data-title="Lpg"
+                                class="text-decoration-none">
+                                <img src="images/ayam.jpeg" class="card-img-top portrait"
+                                    alt="Ayam Betutu" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Ayam Betutu
+                                </h5>
+
+                                <a href="produk/data7.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 8 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card">
+                            <a href="https://i.pinimg.com/736x/98/08/17/9808170bd80ce31174a972b9707d9151.jpg" data-lightbox="galon" data-title="Galon Aqua"
+                                class="text-decoration-none">
+                                <img src="images/gudeg.jpg" class="card-img-top portrait"
+                                    alt="Gudeg" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Nasi Padang
+                                </h5>
+                                
+                                    </p>
+                                <a href="produk/data8.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 9 -->
+                    <div class="col-lg-4 col-sm-6 mb-3">
+                         <div class="card hovered-card">
+                            <a href="https://tse4.mm.bing.net/th/id/OIP.SKTE2C8oExVVoZ2bPrY8bwHaFw?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" data-lightbox="galon" data-title="Galon Aqua"
+                                class="text-decoration-none">
+                                <img src="https://tse4.mm.bing.net/th/id/OIP.SKTE2C8oExVVoZ2bPrY8bwHaFw?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top portrait"
+                                    alt="Gudeg" />
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning">
+                                    Nasi Padang
+                                </h5>
+                                
+                                    </p>
+                                <a href="produk/data9.html" class="btn btn-primary w-100">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- section subscribe -->
+    <div class="container-fluid py-5 footer">
+        <div class="container">
+            <h5 class="text-center text-light display-6 mb-5">Temui Kami</h5>
+            <div class="d-flex justify-content-center mb-5" style="gap: 70px;">
+                <a href="https://facebook.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://instagram.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://twitter.com/username" target="_blank" class="social-icon">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://youtube.com/@username" target="_blank" class="social-icon">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+            <h5 class="text-center text-light display-6 mb-1">Subscribe</h5>
+            <p class="text-center text-light mb-3">Dapatkan informasi terbaru dari kami!</p>
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Masukkan email Anda" aria-label="Email">
+                        <button class="btn btn-warning text-light">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold">NusaRasa.com</h5>
+                    <p class="small">kami disini menyediakan banyak sekali makanan Nusantara.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold mb-3">Navigasi</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
+                        <li><a href="produk.html" class="text-light text-decoration-none">Resep</a></li>
+                        <li><a href="tentang.html" class="text-light text-decoration-none">Tentang</a></li>
+                        <li><a href="kontak.html" class="text-light text-decoration-none">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold">Kontak</h5>
+                    <ul class="list-unstyled text-muted small">
+                        <li class="text-light">Alamat: Jl. NusaRasa No. 123, Kota Anda</li>
+                        <li class="text-light">Telepon: (021) 12345678</li>
+                        <li class="text-light">Email: info@nusarasa.com</li>
+                    </ul>
+                </div>
+                <hr class="border-secondary mt-4 mb-3">
+                <p class="text-center text-light small mb-0">
+                    &copy; 2026 NusaRasa.com. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
